@@ -366,9 +366,9 @@ const Index = () => {
                 className="kinetic-word text-[var(--accent)]"
                 style={{ transform: `translateX(${kineticShift}px) scale(${kineticScale})`, letterSpacing: `${Math.min(scrollY / 45, 8)}px` }}
               >
-                JOSEPH
+                OLAYINKA
               </span>{" "}
-              OLAYINKA
+              FISAYOMI
             </h2>
             <p className="text-xl md:text-2xl text-[var(--secondary)] font-semibold mb-8">
               AI Data Annotation Specialist
@@ -533,7 +533,7 @@ const Index = () => {
                     href="mailto:josepholayinka558@gmail.com"
                     className="hover:text-[var(--accent)] transition-colors"
                   >
-                    josepholayinka558@gmail.com
+                    olayinkafisayomi12@gmail.com
                   </a>
                 </div>
                 <div className="contact-item flex items-center gap-3">
@@ -606,7 +606,7 @@ const Index = () => {
       <footer data-reveal className="bg-[var(--panel)] py-8 px-4 border-t border-[var(--line)] transition-colors duration-700">
         <div className="container mx-auto text-center">
           <p className="text-[var(--text-soft)]">
-            © 2026 JOSEPH OLAYINKA. All rights reserved.
+            © 2026  OLAYINKA. All rights reserved.
           </p>
         </div>
       </footer>
