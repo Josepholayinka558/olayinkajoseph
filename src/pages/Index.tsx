@@ -109,7 +109,7 @@ const Index = () => {
   const kineticShift = Math.min(scrollY / 12, 36);
   const heroImageShift = Math.min(scrollY * 0.08, 42);
   const themeClass = isDarkMode ? "theme-dark" : "theme-light";
-  const heroProfileImage = "/lovable-uploads/21699817-f288-4dae-b372-5918459d504f.png";
+  const heroProfileImage = "/lovable-uploads/profile-hero.png";
 
   return (
     <div className={`cyber-page min-h-screen bg-[var(--bg)] text-[var(--text)] transition-colors duration-700 ${themeClass}`}>
@@ -388,7 +388,7 @@ const Index = () => {
                   Download CV
                 </a>
               </Button>
-              <Button variant="outline" size="lg" asChild className="border-[var(--line-strong)] text-[var(--secondary)] hover:bg-[var(--line-strong)] hover:text-white transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#2b6dff]/30">
+              <Button variant="outline" size="lg" asChild className="border-[var(--line-strong)] text-[var(--secondary)] hover:bg-[var(--line-strong)] hover:text-white transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg">
                 <a href="#contact">
                   <Mail className="mr-2 h-4 w-4" />
                   Get In Touch
@@ -414,7 +414,7 @@ const Index = () => {
               src={heroProfileImage}
               alt="JOSEPH OLAYINKA"
               style={{ transform: `translateY(${heroImageShift}px)` }}
-              className="relative w-full max-w-[28rem] h-[32rem] mx-auto rounded-[2rem] object-cover object-[center_65%] border border-[var(--line)] shadow-2xl shadow-black/30 transition-transform duration-300"
+              className="relative w-full max-w-[28rem] h-[32rem] mx-auto rounded-[2rem] object-cover object-[center_65%] border border-[var(--line)] shadow-2xl shadow-black/30 transition-transform duration-700"
             />
           </div>
         </div>
